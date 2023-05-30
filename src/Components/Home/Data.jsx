@@ -19,7 +19,7 @@ useEffect(() => {
     );
   };
 }, []);
-console.log(coords);
+// console.log(coords);
 
 
 const styles = {
@@ -30,7 +30,7 @@ const styles2={
   transform: `translate3d(${6*Math.sin(coords.x/1200)}px,${8*Math.sin(coords.y/1200)}px,0px)`
 
 }
-console.log(styles.top);
+// console.log(styles.top);
   return (
     
     <div className="home__data">

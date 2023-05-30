@@ -1,0 +1,63 @@
+{
+  "Tabs": [
+    {
+      "active1": "qualification__active",
+      "active2": "",
+      "icon": "graduation-cap",
+      "title": "Education"
+    },
+    {
+      "active1": "",
+      "active2": "qualification__active",
+      "icon": "briefcase-alt",
+      "title": "Certifications"
+    }
+  ],
+ "Qual":[{ "Education": [
+    {
+      "Degree": "B.Tech in Chemical Engineering",
+      "institute": "Indian Institute of Technology",
+      "Year": "2020-2024",
+      "state": 0
+    },
+    {
+      "Degree": "XII, CBSE",
+      "institute": "D.A.V. Public School,khagaul",
+      "Year": "2019",
+      "state": 1
+    },
+    {
+      "Degree": "X, CBSE",
+      "institute": "D.A.V. Public School,khagaul",
+      "Year": "2017",
+      "state": 0
+    }
+  ],
+  "active1":"qualification__content-active",
+  "active2":""
+},
+ 
+  {"Education": [
+    {
+      "Degree": "MATLAB Onramp",
+      "institute": "Mathworks",
+      "Year": "2022",
+      "state": 0
+    },
+    {
+      "Degree": "JavaScript Basics",
+      "institute": "Coursera",
+      "Year": "2021",
+      "state": 1
+    },
+    {
+      "Degree": "Python Database Connection with MariaDB From Infosys",
+      "institute": "Infosys Limited",
+      "Year": "2021",
+      "state": 0
+    }
+  ],
+  "active1":"",
+  "active2":"qualification__content-active"
+  }]
+}

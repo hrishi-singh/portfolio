@@ -1,0 +1,16 @@
+[ {
+        "title":"Experience",
+        "subtitle":"2 years",
+        "svg-icon":"award"
+    },
+    {
+        "title":"Completed",
+        "subtitle":"5+ projects",
+        "svg-icon":"briefcase-alt"
+    },
+    {
+        "title":"Support",
+        "subtitle":"Online",
+        "svg-icon":"support"
+    }
+]

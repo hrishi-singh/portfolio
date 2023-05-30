@@ -1,0 +1,13 @@
+[
+    {
+        "development":"Frontend",
+        "skills":["HTML","CSS","JavaScript","React js"],
+        "icon":"desktop"
+    },
+    {
+        "development":"Backend",
+        "skills":["Node js","My SQL","Django"],
+        "icon":"plug"
+    }
+
+]

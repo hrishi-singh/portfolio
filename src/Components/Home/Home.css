@@ -20,9 +20,9 @@
 .home__title, .home__title1,.home__title2{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
-    color: #40DFEF;
+    color: #E9DCBE;
     mix-blend-mode: multiply;
-    opacity: .6;
+    opacity: .2;
 
 
 }
@@ -30,12 +30,12 @@
     /* position: absolute; */
     position: relative;
     top: -85px;
-    color: #F3BDA1;
+    color: #EFB7B7;
     opacity: 1;
 }
 .home__title2{
     top: -180px;
-    color:#4A403A;
+    color:#525252;
 }
 
 .home__hand{
