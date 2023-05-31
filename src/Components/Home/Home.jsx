@@ -12,7 +12,7 @@ const Home = () => {
           <div className="home__social">
             {
                 SocialInfo.work.map((det)=>(
-                    <a href={det.url} className="home__social-icon" target="_blank">
+                    <a href={det.url} className="home__social-icon" target="_blank" rel="noopener noreferrer">
                 <i className={`uil uil-${det.icon}`}></i>
             </a>
 
