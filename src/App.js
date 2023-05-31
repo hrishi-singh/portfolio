@@ -5,6 +5,7 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Qualification from './Components/Qualifications/Qualification';
+import ScrollUp from './Components/ScrollUp/ScrollUp';
 // import Services from './Components/Services/Services';
 import Skills from './Components/Skills/Skills';
 function App() {
@@ -19,8 +20,9 @@ function App() {
         {/* <Services/> */}
         <Qualification/>
         <Contact/>
-        <Footer/>
         </main>
+        <Footer/>
+        <ScrollUp/>
 
       </header>
     </div>
