@@ -6,9 +6,9 @@ const Skills = () => {
       return (
         
           <div className="skills__content">
+             <i className={`bx bx-${det.icon} skills__icon`} ></i>
             <h3 className="skills__title"> 
-            <i className={`bx bx-${det.icon}`}></i>
-            {det.development}
+           {det.development}
             </h3>
             <div className="skills__box">
               <div className="skills__group">

@@ -8,6 +8,17 @@
         "development":"Backend",
         "skills":["Node js","My SQL","Django"],
         "icon":"plug"
+    }, {
+        "development":"Programming Languages",
+        "skills":["C","C++","Python"],
+        "icon":"code-alt"
     }
+,
+    {
+        "development":"Miscellaneous",
+        "skills":["Adobe XD","Figma","Illustrator","MatLab"],
+        "icon":"layout"
+    }
+
 
 ]

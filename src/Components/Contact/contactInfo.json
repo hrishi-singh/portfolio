@@ -1,0 +1,21 @@
+{
+    "msg":[
+        {
+            "title":"Email",
+            "id":"singh.123@iitj.ac.in",
+            "icon":"-mail-send",
+            "action":"mailto:singh.123@iitj.ac.in"
+        },
+        {
+            "title":"Discord",
+            "id":"hrishi_singh",
+            "icon":"l-discord-alt",
+            "action":"https://discordapp.com/users/hrishi_singh"        },
+        {
+            "title":"Instagram",
+            "id":"hrishi_raj_singh",
+            "icon":"l-instagram",
+            "action":"https://instagram.com/hrishi_raj_singh"
+        }
+    ]
+}

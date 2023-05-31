@@ -1,9 +1,11 @@
 import './App.css';
 import About from './Components/About/About';
+import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Qualification from './Components/Qualifications/Qualification';
-import Services from './Components/Services/Services';
+// import Services from './Components/Services/Services';
 import Skills from './Components/Skills/Skills';
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
         <Home/>
         <About/>
         <Skills/>
-        <Services/>
+        {/* <Services/> */}
         <Qualification/>
+        <Contact/>
+        <Footer/>
         </main>
 
       </header>

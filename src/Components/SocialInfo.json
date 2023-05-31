@@ -1,0 +1,19 @@
+{
+    "work":[
+        {
+            "title":"Linkedin",
+            "icon":"linkedin-alt",
+            "url":"https://www.linkedin.com/in/hrishi-raj-singh/"
+        },
+        {
+            "title":"Github",
+            "icon":"github-alt",
+            "url":"https://github.com/hrishi-singh"
+        },
+        {
+            "title":"dribbble",
+            "icon":"dribbble",
+            "url":"https://dribbble.com/singhhrishi007"
+        }
+    ]
+}
