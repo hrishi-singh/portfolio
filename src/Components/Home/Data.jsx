@@ -34,20 +34,23 @@ const styles2={
   return (
     
     <div className="home__data">
-      <h1 className="home__title">
-        HRISHI SINGH
-      </h1>
+
+
       <h1 className="home__title1" style={styles}>
         HRISHI SINGH
       </h1>
-      <h1 className="home__title2" style={styles2}>
+      <h1 className="home__title" style={styles2}>
         HRISHI SINGH
       </h1>
+      {/* <h1 className="home__title2" >
+        HRISHI SINGH
+      </h1> */}
       <h3 className="home__subtitle">Front-end Developer & Designer</h3>
       <p className="home__discription">
         I'm Creative Designer & Developer, and I'm very passionate and dedicated to my work.<br /> <br />
       </p>
-      <a href="#contact" className="button button--flex">
+      <div className="cntbtn">
+      <a href="#contact" className="button button--flex ">
         Say Hello
         <svg
           class="button__icon"
@@ -67,6 +70,8 @@ const styles2={
           ></path>
         </svg>
       </a>
+      </div>
+      
     </div>
   );
 }

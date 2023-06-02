@@ -17,32 +17,19 @@
 .home__social-icon:hover{
     color: var(--title-color-dark);
 }
-.home__title, .home__title1,.home__title2{
+.home__title, .home__title1{
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-0-25);
-    color: #E9DCBE;
     mix-blend-mode: multiply;
-    opacity: .2;
-
-
-}
-.home__title1,.home__title2{
-    /* position: absolute; */
     position: relative;
     top: -85px;
-    color: #EFB7B7;
-    opacity: 1;
+    color: #52525244;
 }
-.home__title2{
+.home__title{
     top: -180px;
     color:#525252;
 }
 
-.home__hand{
-    width: 38px;
-    height: 38px;
-    margin-left: 0.4rem;
-}
 .home__subtitle{
     margin-top: -170px;
     position: relative;
@@ -147,39 +134,70 @@
    .home__scroll{
     margin-left: 7.5rem;
    }
+   .home__title1{
+    display: none;
+}
+.home__title,.home__subtitle{
+    top: 0px;
+    margin-top: 0px;
+    justify-content: center;
+}
   }
   
   /* For medium devices */
   @media screen and (max-width: 768px) {
+
     .home__content{
-        grid-template-columns: .5fr 3fr;
+        grid-template-columns: .5fr 9.5fr;
         padding-top: 3.5rem;
     }
     .home__img{
         order: initial;
         justify-self: initial;
+        margin: auto;
         width: 200px;
         height: 200px;
         box-shadow: inset 0 0 0 6px rgb(225 225 225 / 30%);
-    
+    }
+    .home__img img{
+        display: flex;
+        align-items: center;
+        justify-self: center;
     }
     .home__data{
         grid-column: 1/3;
+        text-align: center;
     }
-    .home__scroll{
+    .home__scroll,.home__title1{
         display: none;
+    }
+    .home__title,.home__subtitle{
+        top: 0px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .home__subtitle::before{
+        position: relative;
+        margin-right:.5rem;
+        /* display: flex; */
+        align-items: flex-end;
+    }
+    .cntbtn{
+        position: relative;
+        display: flex;
+        justify-content: center;
     }
   }
 
   /* For small devices */
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 395px) {
     .home__img{
         width: 180px;
         height: 180px;
+           }
+       .home__subtitle::before{
+        left:0;
        }
-    .home__hand{
-        width: 22px;
-        height: 22px;
-    }
   }
   
